@@ -1,0 +1,69 @@
+.btn {
+    font-size: 0.98rem;
+    text-transform: uppercase;
+    background-color: var(--dark-color);
+    color: #fff;
+    padding: 0.95rem 1.8rem;
+    font-weight: 500;
+    border-radius: 50px;
+    transition: 0.2s all ease;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.noSelect {
+    -webkit-user-select: none; /* Safari */
+    -webkit-touch-callout: none; /* iOS Safari */ /* Konqueror HTML */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    -moz-user-select: none; /* Old versions of Firefox */
+    user-select: none; /* Non-prefixed version*/
+}
+
+.secondary {
+    background: transparent;
+    padding: 0.9rem 1.8rem;
+    border: 2px solid var(--dark-color);
+    color: var(--dark-color);
+}
+
+.secondary:hover {
+    opacity: 0.8;
+}
+.ripple {
+    background-color: rgba(222, 222, 222, 1);
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    pointer-events: none;
+    height: 100px;
+    width: 100px;
+    transform: scale(0.9);
+    transition: all 0.7s ease;
+    opacity: 0.6;
+    z-index: -1;
+}
+.secondary .ripple {
+    background-color: rgb(216, 215, 215);
+    opacity: 0.5;
+    z-index: -1;
+}
+.rippleActive {
+    transform: scale(2);
+}
+
+.btnDark {
+    background: var(--light-color);
+    border-color: var(--light-color);
+    color: var(--darkColor);
+}
+.btnDark.secondary {
+    background: transparent;
+    color: var(--light-color);
+    font-weight: 600;
+}

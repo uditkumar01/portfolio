@@ -1,0 +1,62 @@
+.contact {
+    /* background-color: red; */
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.textLg {
+    font-size: 2.7rem;
+    color: var(--dark-color);
+    font-weight: 500;
+}
+
+.textSm {
+    font-size: 0.9rem;
+    color: #666e81;
+}
+
+.textMd {
+    font-size: 1.1rem;
+    font-weight: 280;
+    margin-top: 1.8rem;
+    padding: 0 1rem;
+    line-height: 2rem;
+    color: var(--dark-color);
+    max-width: 800px;
+}
+
+.text400 {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.icons {
+    padding: 0.5rem;
+    display: flex;
+}
+
+.darkContact .icon {
+    background: #272e3d;
+}
+
+.icon {
+    height: 48px;
+    width: 48px;
+    background: rgb(232, 236, 238);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666e81;
+    margin: 0 0.2rem;
+    cursor: pointer;
+}
+
+.darkContact .textLg,
+.darkContact .textMd {
+    color: var(--light-color);
+}
