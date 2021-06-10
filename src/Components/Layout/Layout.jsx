@@ -31,12 +31,12 @@ export function Layout({ children }) {
     });
     return (
         <>
-            <Bubble />
             <div
                 className={`${styles.container} ${
                     theme ? styles.darkContainer : styles.lightContainer
                 }`}
             >
+                <Bubble />
                 <Head>
                     <meta
                         name="viewport"

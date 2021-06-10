@@ -8,6 +8,9 @@ export function AboutMe() {
             <div className={`${styles.aboutContainer}`}>
                 <p>
                     <br />
+                    <br />
+                    <br />
+                    <br />
                 </p>
                 <h1 className={`${styles.textLg}`}>About Me</h1>
                 <small className={`${styles.textSm}`}>

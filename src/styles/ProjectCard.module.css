@@ -18,7 +18,7 @@
 }
 
 .darkCard .card {
-    background: var(--dark-color);
+    background: red;
     -webkit-filter: drop-shadow(3px 3px 10px rgba(49, 48, 48, 0.5))
         grayscale(0%);
     filter: drop-shadow(3px 3px 10px rgba(54, 53, 53, 0.2)) grayscale(0%);
