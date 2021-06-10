@@ -96,3 +96,11 @@
     text-transform: uppercase;
     text-align: right;
 }
+
+@media only screen and (max-width: 430px) {
+    .projectCards {
+        gap: 1rem;
+        margin: 5rem 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
