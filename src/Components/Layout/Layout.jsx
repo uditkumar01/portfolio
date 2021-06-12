@@ -36,7 +36,7 @@ export function Layout({ children }) {
                     theme ? styles.darkContainer : styles.lightContainer
                 }`}
             >
-                {/* <Bubble /> */}
+                <Bubble />
                 <Head>
                     <meta
                         name="viewport"
