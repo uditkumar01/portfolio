@@ -1,6 +1,6 @@
 import { Layout } from "../Components/";
 import styles from "../styles/Home.module.css";
-import { AboutMe, Contact, ProfileCard } from "../Components/";
+import { AboutMe, Contact, ProfileCard, TechStack } from "../Components/";
 import { useEffect } from "react";
 
 export default function Home() {
@@ -16,6 +16,7 @@ export default function Home() {
             <div className={styles.bodyContainer}>
                 <ProfileCard />
                 <AboutMe />
+                <TechStack />
                 <Contact />
             </div>
         </Layout>

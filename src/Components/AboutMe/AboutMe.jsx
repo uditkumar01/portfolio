@@ -17,35 +17,34 @@ export function AboutMe() {
                     Wanna know more about me...
                 </small>
                 <p className={`${styles.textMd}`}>
-                    I am a <a className={`${styles.text500}`}>Web Developer</a>,
-                    looking for a internship in an exciting company. I focus on
-                    writing accessible{" "}
-                    <a className={`${styles.text500}`}>HTML</a>, using modern{" "}
-                    <a className={`${styles.text500}`}>CSS</a> practices and{" "}
-                    <a className={`${styles.text500}`}>JavaScript</a>. When
-                    writing <a className={`${styles.text500}`}>JavaScript</a>, I
-                    prefer <a className={`${styles.text500}`}>React</a>, but I
-                    am open to adapting whichever framework is required. I've
-                    also had experience working with{" "}
-                    <a className={`${styles.text500}`}>Python</a>,{" "}
-                    <a className={`${styles.text500}`}>Flask</a> and{" "}
+                    I am a 3rd year B Tech Student pursuing{" "}
+                    <a className={`${styles.text500}`}>Web Development</a> and
+                    looking for an internship in a company that would help me
+                    grow and explore new emerging technologies. I focus on
+                    writing an accessible and simplified style of writing code.
+                    I am open to adapting whichever framework is required. I
+                    always try to automate my repetitive tasks using JS, Python,
+                    etc. I've also had experience with{" "}
+                    <a className={`${styles.text500}`}>Bot Programming</a>,{" "}
+                    <a className={`${styles.text500}`}>Flask</a>, and{" "}
                     <a className={`${styles.text500}`}>Firebase</a>. When I'm
                     not coding, you'll find me playing outdoor games, learning
                     new tech stuff.
                     <br />
                     <br />
-                    Currently, i am learning React Native and Next JS. Before
-                    doing this i did{" "}
-                    <a className={`${styles.text500}`}>MERN Stack</a>. I have
-                    made a lot of cool projects using{" "}
-                    <a className={`${styles.text500}`}>MERN Stack</a> some of
-                    them are listed below in{" "}
+                    Currently, I am learning{" "}
+                    <a className={`${styles.text500}`}>React Native</a> and{" "}
+                    <a className={`${styles.text500}`}>Next JS</a>. Before this,
+                    I did <a className={`${styles.text500}`}>MERN Stack</a>. I
+                    have worked on some cool projects using{" "}
+                    <a className={`${styles.text500}`}>MERN Stack</a>. Some of
+                    them are listed below in the{" "}
                     <a className={`${styles.text500}`}>Project</a> section.
                     <br />
                     <br />I believe Project Based Learning is the best approach
-                    to learn anything. Hence, I've got projects in all the
-                    different technologies that I've learnt over time check out
-                    my projects. I'd love you to checkout my projects.
+                    to learn anything. Hence, I've got projects in different
+                    technologies that I've learnt over time. I'd love you to
+                    check out my projects.
                     {[...Array(4)].map((value, i) => (
                         <br key={i} />
                     ))}
