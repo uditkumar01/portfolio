@@ -31,12 +31,12 @@ a {
         Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
         sans-serif;
     scroll-behavior: smooth;
-    /* -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none; */
+    user-select: none;
 }
 
 /* Works on Chrome, Edge, and Safari */
