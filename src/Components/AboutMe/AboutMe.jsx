@@ -20,9 +20,8 @@ export function AboutMe() {
                     I am a 3rd year B Tech Student pursuing{" "}
                     <a className={`${styles.text500}`}>Web Development</a> and
                     looking for an internship in a company that would help me
-                    grow and explore new emerging technologies. I focus on
-                    writing an accessible and simplified style of writing code.
-                    I am open to adapting whichever framework is required. I
+                    grow and explore new emerging technologies. I focus on an accessible and simplified style of writing code,
+                    and can adapt to whichever framework is required. I
                     always try to automate my repetitive tasks using JS, Python,
                     etc. I've also had experience with{" "}
                     <a className={`${styles.text500}`}>Bot Programming</a>,{" "}
