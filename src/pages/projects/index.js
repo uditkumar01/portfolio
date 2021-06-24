@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import { ProjectCards } from "../../Components";
-import { Layout } from "../../Components/";
+import { ProjectCards } from "../../components";
+import { Layout } from "../../components/";
 import styles from "../../styles/Project.module.css";
 
 export default function Projects() {

@@ -8,3 +8,4 @@ export { Contact } from "./Contact/Contact";
 export { Bubble } from "./Bubble/Bubble";
 export { ProjectCards } from "./ProjectCards/ProjectCards";
 export { TechStack } from "./TechStack/TechStack";
+export { CustomCursor } from "./CustomCursor/CustomCursor";

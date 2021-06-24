@@ -1,6 +1,6 @@
-import { Layout } from "../Components/";
+import { Layout } from "../components/";
 import styles from "../styles/Home.module.css";
-import { AboutMe, Contact, ProfileCard, TechStack } from "../Components/";
+import { AboutMe, Contact, ProfileCard, TechStack } from "../components/";
 import { useEffect } from "react";
 
 export default function Home() {
