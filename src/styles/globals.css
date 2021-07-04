@@ -6,8 +6,6 @@ body {
   min-width: 100vw;
   max-width: 100vw;
   overflow-x: hidden;
-  cursor: none;
-  /* overflow: hidden; */
 }
 
 :root {
@@ -63,4 +61,16 @@ a {
   scrollbar-color: var(--grey-color) transparent;
   scroll-behavior: smooth;
   scrollbar-width: thin;
+}
+
+@media (pointer: fine) {
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    min-width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+    cursor: none;
+  }
 }
