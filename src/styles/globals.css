@@ -34,6 +34,7 @@ a {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
+  transition: 0.4s ease;
   user-select: none;
 }
 
